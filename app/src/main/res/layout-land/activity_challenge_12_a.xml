@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.chapter12a.ChallengeActivity12A">
+
+    <Button
+        android:id="@+id/challenge_12_a_button_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/chapter_12_margin_normal"
+        android:layout_marginTop="@dimen/chapter_12_margin_normal"
+        android:backgroundTint="@color/purple_200"
+        android:text="@string/chapter_12_button_label_toast"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/challenge_12_a_button_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/chapter_12_margin_normal"
+        android:layout_marginTop="@dimen/chapter_12_margin_normal"
+        android:backgroundTint="@color/purple_200"
+        android:text="@string/chapter_12_button_label_count"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/challenge_12_a_button_toast" />
+
+    <TextView
+        android:id="@+id/challenge_12_a_show_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/chapter_12_margin_normal"
+        android:layout_marginTop="@dimen/chapter_12_margin_normal"
+        android:background="@color/color_yellow"
+        android:gravity="center"
+        android:text="@string/chapter_12_count_initial_value"
+        android:textColor="@color/purple_500"
+        android:textSize="@dimen/chapter_12_text_size_normal"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/challenge_12_a_button_toast"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

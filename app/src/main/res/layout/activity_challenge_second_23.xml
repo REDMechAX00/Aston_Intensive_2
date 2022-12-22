@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.chapter23.ChallengeSecondActivity23">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/app_margin_normal">
+
+            <TextView
+                style="@style/themeLabelNormal"
+                android:text="@string/chapter_22_item_list" />
+
+            <Button
+                android:id="@+id/challenge_23_btn1"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item1" />
+
+            <Button
+                android:id="@+id/challenge_23_btn2"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item2" />
+
+            <Button
+                android:id="@+id/challenge_23_btn3"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item3" />
+
+            <Button
+                android:id="@+id/challenge_23_btn4"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item4" />
+
+            <Button
+                android:id="@+id/challenge_23_btn5"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item5" />
+
+            <Button
+                android:id="@+id/challenge_23_btn6"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item6" />
+
+            <Button
+                android:id="@+id/challenge_23_btn7"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item7" />
+
+            <Button
+                android:id="@+id/challenge_23_btn8"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item8" />
+
+            <Button
+                android:id="@+id/challenge_23_btn9"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item9" />
+
+            <Button
+                android:id="@+id/challenge_23_btn10"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item10" />
+
+            <Button
+                android:id="@+id/challenge_23_btn11"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item11" />
+
+            <Button
+                android:id="@+id/challenge_23_btn12"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item12" />
+
+            <Button
+                android:id="@+id/challenge_23_btn13"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item13" />
+
+            <Button
+                android:id="@+id/challenge_23_btn14"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item14" />
+
+            <Button
+                android:id="@+id/challenge_23_btn15"
+                style="@style/themeButtonNormal"
+                android:text="@string/chapter_22_item15" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    tools:context=".ui.main.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main_layout_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/app_margin_normal"
+        android:layout_marginEnd="@dimen/app_margin_small"
+        android:layout_marginBottom="@dimen/app_margin_small"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/main_layout_right"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/main_text_lesson_1"
+            style="@style/themeLabelNormal"
+            android:text="@string/title_lesson_1" />
+
+        <Button
+            android:id="@+id/main_btn_lesson_1_1"
+            style="@style/themeButtonNormal"
+            android:text="@string/title_chapter_1_1" />
+
+        <Button
+            android:id="@+id/main_btn_lesson_1_2A"
+            style="@style/themeButtonNormal"
+            android:text="@string/title_chapter_1_2_A" />
+
+        <Button
+            android:id="@+id/main_btn_lesson_1_2B"
+            style="@style/themeButtonNormal"
+            android:text="@string/title_chapter_1_2_B" />
+
+        <Button
+            android:id="@+id/main_btn_lesson_1_3"
+            style="@style/themeButtonNormal"
+            android:text="@string/title_chapter_1_3" />
+
+        <Button
+            android:id="@+id/main_btn_lesson_1_4"
+            style="@style/themeButtonNormal"
+            android:text="@string/title_chapter_1_4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_layout_right"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/app_margin_small"
+        android:layout_marginEnd="@dimen/app_margin_normal"
+        android:layout_marginBottom="@dimen/app_margin_small"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/main_layout_left"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/main_text_lesson_2"
+            style="@style/themeLabelNormal"
+            android:text="@string/title_lesson_2" />
+
+        <Button
+            android:id="@+id/main_btn_lesson_2_1"
+            style="@style/themeButtonNormal"
+            android:text="@string/title_chapter_2_1" />
+
+        <Button
+            android:id="@+id/main_btn_lesson_2_2"
+            style="@style/themeButtonNormal"
+            android:text="@string/title_chapter_2_2" />
+
+        <Button
+            android:id="@+id/main_btn_lesson_2_3"
+            style="@style/themeButtonNormal"
+            android:text="@string/title_chapter_2_3" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

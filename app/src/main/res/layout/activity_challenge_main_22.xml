@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.chapter22.ChallengeMainActivity22">
+
+    <Button
+        android:id="@+id/challenge_22_btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/chapter_22_margin_normal"
+        android:text="@string/chapter_22_button_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/challenge_22_btn_add">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/challenge_22_item_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/chapter_22_margin_normal"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/chapter_22_text_size_normal" />
+
+            <TextView
+                android:id="@+id/challenge_22_item_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/chapter_22_margin_normal"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/chapter_22_text_size_normal" />
+
+            <TextView
+                android:id="@+id/challenge_22_item_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/chapter_22_margin_normal"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/chapter_22_text_size_normal" />
+
+            <TextView
+                android:id="@+id/challenge_22_item_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/chapter_22_margin_normal"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/chapter_22_text_size_normal" />
+
+            <TextView
+                android:id="@+id/challenge_22_item_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/chapter_22_margin_normal"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/chapter_22_text_size_normal" />
+
+            <TextView
+                android:id="@+id/challenge_22_item_six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/chapter_22_margin_normal"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/chapter_22_text_size_normal" />
+
+            <TextView
+                android:id="@+id/challenge_22_item_seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/chapter_22_margin_normal"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/chapter_22_text_size_normal" />
+
+            <TextView
+                android:id="@+id/challenge_22_item_eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/chapter_22_margin_normal"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/chapter_22_text_size_normal" />
+
+            <TextView
+                android:id="@+id/challenge_22_item_nine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/chapter_22_margin_normal"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/chapter_22_text_size_normal" />
+
+            <TextView
+                android:id="@+id/challenge_22_item_ten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/chapter_22_margin_normal"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/chapter_22_text_size_normal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/chapter_22_padding_bottom" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

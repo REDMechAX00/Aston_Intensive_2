@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.chapter14.HomeworkActivity14">
+
+    <View
+        android:id="@+id/homework_14_ic_default"
+        android:layout_width="@dimen/chapter_14_image_size"
+        android:layout_height="@dimen/chapter_14_image_size"
+        android:background="@mipmap/ic_launcher_default"
+        app:layout_constraintBottom_toTopOf="@id/homework_14_description"
+        app:layout_constraintEnd_toStartOf="@id/homework_14_arrow"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/homework_14_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:paddingBottom="@dimen/chapter_14_arrow_fixed_padding_bottom"
+        android:text="@string/chapter_14_arrow"
+        android:textColor="@color/black"
+        android:textSize="@dimen/chapter_14_arrow_text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/homework_14_description"
+        app:layout_constraintEnd_toStartOf="@id/homework_14_ic_app"
+        app:layout_constraintStart_toEndOf="@+id/homework_14_ic_default"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/homework_14_ic_app"
+        android:layout_width="@dimen/chapter_14_image_size"
+        android:layout_height="@dimen/chapter_14_image_size"
+        android:background="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toTopOf="@id/homework_14_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/homework_14_arrow"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/homework_14_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/chapter_14_description_text_padding"
+        android:text="@string/chapter_14_description"
+        android:textColor="@color/black"
+        android:textSize="@dimen/chapter_14_description_text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homework_14_ic_default" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

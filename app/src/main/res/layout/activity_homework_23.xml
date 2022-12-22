@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.chapter23.HomeworkActivity23">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/chapter_23_padding_normal"
+            tools:context=".ui.chapter23.HomeworkActivity23">
+
+            <EditText
+                android:id="@+id/homework_23_website_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chapter_23_edittext_uri" />
+
+            <Button
+                android:id="@+id/homework_23_open_website_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="@string/chapter_23_button_uri" />
+
+            <EditText
+                android:id="@+id/homework_23_location_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chapter_23_edittext_loc" />
+
+            <Button
+                android:id="@+id/homework_23_open_location_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="@string/chapter_23_button_loc" />
+
+            <EditText
+                android:id="@+id/homework_23_share_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chapter_23_edittext_share" />
+
+            <Button
+                android:id="@+id/homework_23_share_text_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="@string/chapter_23_button_share" />
+
+            <Button
+                android:id="@+id/homework_23_take_picture_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="@string/chapter_23_button_take" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

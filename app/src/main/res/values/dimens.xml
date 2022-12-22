@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ********************************** App Dimens ********************************** -->
+    <dimen name="app_margin_normal">20dp</dimen>
+    <dimen name="app_margin_small">10dp</dimen>
+
+    <!-- Text -->
+    <dimen name="text_size_normal">16sp</dimen>
+
+
+    <!-- ********************************** Task Dimens ********************************** -->
+    <!-- Chapter 1.2A & 1.2B -->
+    <dimen name="chapter_12_text_size_large">200sp</dimen>
+    <dimen name="chapter_12_text_size_normal">160sp</dimen>
+    <dimen name="chapter_12_text_size_normal_land">110sp</dimen>
+    <dimen name="chapter_12_text_size_small">60sp</dimen>
+    <dimen name="chapter_12_margin_normal">8dp</dimen>
+    <dimen name="chapter_12_btn_width">388dp</dimen>
+
+    <!-- Chapter 1.3 -->
+    <dimen name="chapter_13_padding_regular">10dp</dimen>
+    <dimen name="chapter_13_line_spacing">5sp</dimen>
+    <dimen name="chapter_13_subheading_width">100dp</dimen>
+
+    <!-- Chapter 1.4 -->
+    <dimen name="chapter_14_image_size">80dp</dimen>
+    <dimen name="chapter_14_arrow_text_size">90sp</dimen>
+    <dimen name="chapter_14_description_text_size">20sp</dimen>
+    <dimen name="chapter_14_description_text_size_land">16sp</dimen>
+    <dimen name="chapter_14_arrow_fixed_padding_bottom">30dp</dimen>
+    <dimen name="chapter_14_description_text_padding">26dp</dimen>
+
+    <!-- Chapter 2.1 -->
+    <dimen name="chapter_21_padding_normal">16dp</dimen>
+    <dimen name="chapter_21_margin_normal">16dp</dimen>
+    <dimen name="chapter_21_margin_low">8dp</dimen>
+    <dimen name="chapter_21_text_size_normal">20sp</dimen>
+    <dimen name="chapter_21_text_size_big">80sp</dimen>
+
+    <!-- Chapter 2.2 -->
+    <dimen name="chapter_22_margin_normal">8dp</dimen>
+    <dimen name="chapter_22_text_size_normal">18sp</dimen>
+    <dimen name="chapter_22_text_size_big">68sp</dimen>
+    <dimen name="chapter_22_margin_top">30dp</dimen>
+    <dimen name="chapter_22_padding_bottom">80dp</dimen>
+
+    <!-- Chapter 2.3 -->
+    <dimen name="chapter_23_padding_normal">16dp</dimen>
+    <dimen name="chapter_23_padding_bottom">200dp</dimen>
+</resources>

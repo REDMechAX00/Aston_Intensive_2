@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tasks"
+        tools:targetApi="33">
+        <activity
+            android:name=".ui.chapter23.ChallengeSecondActivity23"
+            android:exported="false"
+            android:label="@string/chapter_23_challenge_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter23.ChallengeMainActivity23"
+            android:exported="false"
+            android:label="@string/chapter_23_challenge_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter23.HomeworkActivity23"
+            android:exported="false"
+            android:label="@string/chapter_23_homework_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter22.HomeworkActivity22"
+            android:exported="false"
+            android:label="@string/chapter_22_homework_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter22.ChallengeSecondActivity22"
+            android:exported="false"
+            android:label="@string/chapter_22_challenge_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter22.ChallengeMainActivity22"
+            android:exported="false"
+            android:label="@string/chapter_22_challenge_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter21.HomeworkSecondActivity21"
+            android:exported="false"
+            android:label="@string/chapter_21_homework_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter21.HomeworkMainActivity21"
+            android:exported="false"
+            android:label="@string/chapter_21_homework_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter21.ChallengeSecondActivity21"
+            android:label="@string/chapter_21_activity2_name"
+            android:parentActivityName=".ui.chapter21.ChallengeMainActivity21">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.redmechax00.astonintensive2.ui.chapter21.ChallengeMainActivity21" />
+        </activity>
+        <activity
+            android:name=".ui.chapter21.ChallengeMainActivity21"
+            android:exported="false"
+            android:label="@string/chapter_21_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter14.HomeworkActivity14"
+            android:exported="false"
+            android:label="@string/chapter_14_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter13.ChallengeActivity13"
+            android:exported="false"
+            android:label="@string/chapter_13_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter13.HomeworkActivity13"
+            android:exported="false"
+            android:label="@string/chapter_13_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter12b.ChallengeActivity12B"
+            android:exported="false"
+            android:label="@string/chapter_12_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter12b.HomeworkActivity12B"
+            android:exported="false"
+            android:label="@string/chapter_12_b_homework_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter12a.ChallengeActivity12A"
+            android:exported="false"
+            android:label="@string/chapter_12_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter11.ChallengeActivity11"
+            android:exported="false"
+            android:label="@string/chapter_11_challenge_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.chapter11.HomeworkActivity11"
+            android:exported="false"
+            android:label="@string/chapter_11_activity_name">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.main.ChapterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AstonIntensive2">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AstonIntensive2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

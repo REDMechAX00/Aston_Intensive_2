@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.chapter22.HomeworkActivity22">
+
+    <TextView
+        android:id="@+id/homework_22_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/chapter_22_margin_top"
+        android:text="@string/chapter_22_item_text"
+        android:textColor="@color/black"
+        android:textSize="@dimen/chapter_22_text_size_big"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/homework_22_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/chapter_22_margin_normal"
+        android:text="@string/chapter_22_count"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homework_22_text" />
+
+    <EditText
+        android:id="@+id/homework_22_ed_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/chapter_22_margin_normal"
+        android:autofillHints="@string/chapter_22_edit_text_hint"
+        android:text="@string/chapter_22_edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homework_22_count" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,215 @@
+<resources>
+    <!-- ********************************** App Strings ********************************** -->
+    <string name="app_name">Aston Intensive 2</string>
+
+    <string name="title_homework">Homework</string>
+    <string name="title_challenge">Challenge</string>
+
+    <string name="error_chapter_not_found">Chapter not found</string>
+    <string name="error_task_not_found">Task not found</string>
+
+    <string name="title_lesson_1">Lesson 1: Build your first app</string>
+    <string name="title_lesson_2">Lesson 2: Activities and intents</string>
+
+    <string name="title_chapter_1_1">1.1: Android Studio and Hello World</string>
+    <string name="title_chapter_1_2_A">1.2 Part A: Your first interactive UI</string>
+    <string name="title_chapter_1_2_B">1.2 Part B: The layout editor</string>
+    <string name="title_chapter_1_3">1.3: Text and scrolling views</string>
+    <string name="title_chapter_1_4">1.4: Learn to help yourself</string>
+    <string name="title_chapter_2_1">2.1: Activities and intents</string>
+    <string name="title_chapter_2_2">2.2: Activity lifecycle and state</string>
+    <string name="title_chapter_2_3"> 2.3: Implicit intents</string>
+
+
+    <!-- ********************************** Task Strings ********************************** -->
+    <!-- Chapter 1.1 -->
+    <string name="chapter_11_activity_name">Hello World</string>
+    <string name="chapter_11_challenge_activity_name">Happy Birthday to</string>
+    <string name="chapter_11_hello_world">Hello World</string>
+    <string name="chapter_11_happy_birthday">Happy Birthday to Nick</string>
+    <string name="chapter_11_happy_birthday_error">You can\u0027t congratulate a friend because the birthday has already passed</string>
+
+    <!-- Chapter 1.2A & 1.2B -->
+    <string name="chapter_12_activity_name">Hello Toast</string>
+    <string name="chapter_12_b_homework_activity_name"> Hello Constraint</string>
+    <string name="chapter_12_button_label_toast">Toast</string>
+    <string name="chapter_12_button_label_zero">Zero</string>
+    <string name="chapter_12_button_label_count">Count</string>
+    <string name="chapter_12_count_initial_value">0</string>
+    <string name="chapter_12_toast_message">Hello Toast!</string>
+
+    <!-- Chapter 1.3 -->
+    <string name="chapter_13_activity_name">Scrolling Text</string>
+    <string name="chapter_13_article_title">Beatles Anthology Vol. 1</string>
+    <string name="chapter_13_article_subtitle">Behind That Locked Door: Beatles Rarities!</string>
+    <string name="chapter_13_article_text">
+        In a vault deep inside Abbey Road Studios in London — protected by an unmarked, triple-locked,
+        police-alarmed door — are something like 400 hours of unreleased Beatles recordings, starting from June 2,
+        1962 and ending with the very last tracks recorded for the <i>Let It Be</i> album. The best of the best
+        were released by Apple Records in the form of the 3-volume Anthology series.
+         For more information, see the Beatles Time Capsule at www.rockument.com.
+        \n\n
+        This volume starts with the first new Beatle song, “Free as a Bird” (based on a John Lennon demo, found
+        only on <i>The Lost Lennon Tapes Vol. 28</i>, and covers the very earliest historical recordings,
+        outtakes from the first albums, and live recordings from early concerts and BBC Radio sessions.
+        \n\n
+        <b>Highlights include:</b>
+        \n\n
+        <b><i>Cry for a Shadow</i></b> - Many a Beatle fanatic started down the outtake road, like I did, with a
+        first listen to this song. Originally titled “Beatle Bop” and recorded in a single session that yielded four
+        songs (the other three featured Tony Sheridan with the Beatles as a backing band), “Cry for a Shadow” is
+        an instrumental written by Lennon and Harrison, which makes it unique to this day. John Lennon plays
+        rhythm guitar, George Harrison plays lead guitar, Paul McCartney plays bass, and Pete Best plays drums.
+        The sessions were produced by Bert Kaempfert in Hamburg, Germany, during the Beatles’ second visit
+        from April through July of 1961 to play in the Reeperbahn-section clubs.
+        \n\n
+        <b><i>My Bonnie</i></b> and <b><i>Ain’t She Sweet</i></b> — At the same session, the Beatles
+        played on “My Bonnie” (the first-ever single with Beatles playing), as the backing band for English singer
+        Tony Sheridan, originally a member of the Jets. The popularity of this single in Liverpool brought the
+        Beatles to the attention of Brian Epstein, who worked in the NEMS record store and tried to meet
+        demand for the disc. John Lennon then sings a fine “Ain’t She Sweet” (his first-ever released vocal).
+        \n\n
+        <b><i>Searchin</i></b> — A Jerry Leiber - Mike Stoller comedy song that was a hit for the Coasters in
+        1957, and a popular live favorite of the Beatles. The Coasters also had a hit with “Besame Mucho” and
+        the Beatles covered that song as well. Ringo Starr had by now replaced Pete Best on drums. The high
+        falsetto is George, who also plays a hesitant lead guitar. This is from their first audition for Decca
+        Records in London on Jan 1., 1962, live in the studio. The Grateful Dead would later cover “Searchin”
+        with a similar arrangement, Pigpen doing the Paul vocals. A live version is available on outtake records
+        featuring the Dead joined by the Beach Boys!
+        \n\n
+        <b><i>Love Me Do</i></b> — An early version of the song, played a bit slower and with more of a blues
+        feeling, and a cool bossa-nova beat in middle. Paul had to sing while John played harmonica — a first for
+        the group. Pete Best played drums on this version.
+        \n\n
+        <b><i>She Loves You – Till There Was You – Twist and Shout</i></b> — Live at the Princess Wales
+        Theatre by Leicester Square in London, attended by the Queen. “Till There Was You” (by Meredith
+        Wilson) is from the musical The Music Man and a hit for Peggy Lee in 1961. Before playing it, Paul said it
+        was recorded by his favorite American group, “Sophie Tucker” (which got some laughs). At the end, John
+        tells the people in the cheaper seats to clap their hands, and the rest to “rattle your jewelry” and then
+        announces “Twist and Shout” (a song by Bert Russell and Phil Medley that was first recorded in 1962 by
+        the Isley Brothers). A film of the performance shows the Queen smiling at John’s remark.
+        \n\n
+        <b><i>Leave My Kitten Alone</i></b> — One of the lost Beatle songs recorded during the “Beatles For
+        Sale” sessions but never released. This song, written by Little Willie John, Titus Turner, and James
+        McDougal, was a 1959 R&amp;B hit for Little Willie John and covered by Johnny Preston before the
+        Beatles tried it and shelved it. A reference to a “big fat bulldog” may have influenced John’s “Hey
+        Bulldog” (Yellow Submarine album), which is a similar rocker.
+        \n\n
+        <b><i>One After 909</i></b> — A song recorded for the <i>Let It Be</i> album was actually worked on
+        way back in the beginning, six years earlier. This take shows how they did it much more slowly, with an
+        R&amp;B feel to it.</string>
+    <string name="chapter_13_add_comment">Add comment</string>
+
+    <!-- Chapter 1.4 -->
+    <string name="chapter_14_activity_name">My Application</string>
+    <string name="chapter_14_arrow">→</string>
+    <string name="chapter_14_description">I also load a sample application:\n
+        \n
+        (File → New → Import Sample… → \u0022Input\u0022 - \u0022BasicMultitouch\u0022)\n
+        \n
+        And explored its resources, etc.</string>
+
+    <!-- Chapter 2.1 -->
+    <string name="chapter_21_activity_name">Two Activities</string>
+    <string name="chapter_21_activity2_name">Second Activity</string>
+    <string name="chapter_21_button_main_one">Text one</string>
+    <string name="chapter_21_button_main_two">Text two</string>
+    <string name="chapter_21_button_main_three">Text three</string>
+    <string name="chapter_21_message_part_one">
+        <b>Text One</b>
+        \n\n
+        <b><i>She Loves You – Till There Was You – Twist and Shout</i></b> — Live at the Princess Wales
+        Theatre by Leicester Square in London, attended by the Queen. “Till There Was You” (by Meredith
+        Wilson) is from the musical The Music Man and a hit for Peggy Lee in 1961. Before playing it, Paul said it
+        was recorded by his favorite American group, “Sophie Tucker” (which got some laughs). At the end, John
+        tells the people in the cheaper seats to clap their hands, and the rest to “rattle your jewelry” and then
+        announces “Twist and Shout” (a song by Bert Russell and Phil Medley that was first recorded in 1962 by
+        the Isley Brothers). A film of the performance shows the Queen smiling at John’s remark.
+        \n\n
+        This volume starts with the first new Beatle song, “Free as a Bird” (based on a John Lennon demo, found
+        only on <i>The Lost Lennon Tapes Vol. 28</i>, and covers the very earliest historical recordings,
+        outtakes from the first albums, and live recordings from early concerts and BBC Radio sessions.
+    </string>
+    <string name="chapter_21_message_part_two">
+        <b>Text Two</b>
+        \n\n
+        <b><i>Leave My Kitten Alone</i></b> — One of the lost Beatle songs recorded during the “Beatles For
+        Sale” sessions but never released. This song, written by Little Willie John, Titus Turner, and James
+        McDougal, was a 1959 R&amp;B hit for Little Willie John and covered by Johnny Preston before the
+        Beatles tried it and shelved it. A reference to a “big fat bulldog” may have influenced John’s “Hey
+        Bulldog” (Yellow Submarine album), which is a similar rocker.
+        \n\n
+        <b><i>Love Me Do</i></b> — An early version of the song, played a bit slower and with more of a blues
+        feeling, and a cool bossa-nova beat in middle. Paul had to sing while John played harmonica — a first for
+        the group. Pete Best played drums on this version.
+         \n\n
+        <b><i>One After 909</i></b> — A song recorded for the <i>Let It Be</i> album was actually worked on
+        way back in the beginning, six years earlier. This take shows how they did it much more slowly, with an
+        R&amp;B feel to it.
+    </string>
+    <string name="chapter_21_message_part_three">
+        <b>Text Three</b>
+        \n\n
+        <b><i>My Bonnie</i></b> and <b><i>Ain’t She Sweet</i></b> — At the same session, the Beatles
+        played on “My Bonnie” (the first-ever single with Beatles playing), as the backing band for English singer
+        Tony Sheridan, originally a member of the Jets. The popularity of this single in Liverpool brought the
+        Beatles to the attention of Brian Epstein, who worked in the NEMS record store and tried to meet
+        demand for the disc. John Lennon then sings a fine “Ain’t She Sweet” (his first-ever released vocal).
+         \n\n
+        <b><i>Cry for a Shadow</i></b> - Many a Beatle fanatic started down the outtake road, like I did, with a
+        first listen to this song. Originally titled “Beatle Bop” and recorded in a single session that yielded four
+        songs (the other three featured Tony Sheridan with the Beatles as a backing band), “Cry for a Shadow” is
+        an instrumental written by Lennon and Harrison, which makes it unique to this day. John Lennon plays
+        rhythm guitar, George Harrison plays lead guitar, Paul McCartney plays bass, and Pete Best plays drums.
+        The sessions were produced by Bert Kaempfert in Hamburg, Germany, during the Beatles’ second visit
+        from April through July of 1961 to play in the Reeperbahn-section clubs.
+    </string>
+    <string name="chapter_21_count_initial_value">0</string>
+    <string name="chapter_21_button_label_count">Count</string>
+    <string name="chapter_21_homework_activity_name">Hello Toast</string>
+    <string name="chapter_21_button_label_say">Say Hello</string>
+    <string name="chapter_21_hello_message">Hello!\n</string>
+
+    <!-- Chapter 2.2 -->
+    <string name="chapter_22_challenge_activity_name">Simple shopping-list</string>
+    <string name="chapter_22_homework_activity_name">Counter Homework</string>
+    <string name="chapter_22_button_add">Add Item</string>
+    <string name="chapter_22_item1">Pineapple</string>
+    <string name="chapter_22_item2">Orange</string>
+    <string name="chapter_22_item3">Watermelon</string>
+    <string name="chapter_22_item4">Banana</string>
+    <string name="chapter_22_item5">Grapes</string>
+    <string name="chapter_22_item6">Cherry</string>
+    <string name="chapter_22_item7">Pear</string>
+    <string name="chapter_22_item8">Kiwi</string>
+    <string name="chapter_22_item9">Lime</string>
+    <string name="chapter_22_item10">Sour cream</string>
+    <string name="chapter_22_item11">Bread</string>
+    <string name="chapter_22_item12">Carrot</string>
+    <string name="chapter_22_item13">Oil</string>
+    <string name="chapter_22_item14">Butter</string>
+    <string name="chapter_22_item15">Cheese</string>
+    <string name="chapter_22_item_list">Item list</string>
+    <string name="chapter_22_limit_exception">Exceeded the list limit (10 items)</string>
+    <string name="chapter_22_item_text">0</string>
+    <string name="chapter_22_count">Count</string>
+    <string name="chapter_22_edit_text">This is an Edit Text</string>
+    <string name="chapter_22_edit_text_hint">Hint</string>
+
+    <!-- Chapter 2.3 -->
+    <string name="chapter_23_homework_activity_name">Implicit Intents</string>
+    <string name="chapter_23_challenge_activity_name">Shopping-list with searching</string>
+    <string name="chapter_23_edittext_uri">http://developer.android.com</string>
+    <string name="chapter_23_button_uri">Open Website</string>
+    <string name="chapter_23_edittext_loc">Golden Gate Bridge</string>
+    <string name="chapter_23_button_loc">Open Location</string>
+    <string name="chapter_23_edittext_share">\'Twas brillig and the slithy toves</string>
+    <string name="chapter_23_button_share">Share This Text</string>
+    <string name="chapter_23_button_take">Take A Picture</string>
+    <string name="chapter_23_log_tag">ImplicitIntents</string>
+    <string name="chapter_23_log_msg1">Can\'t handle this intent!</string>
+    <string name="chapter_23_chooser_title">\"Share this text with: \"</string>
+    <string name="chapter_23_btn_search_text">Search shop on the map</string>
+    <string name="chapter_23_edittext_shop_hint">Enter name of the shop</string>
+
+</resources>
